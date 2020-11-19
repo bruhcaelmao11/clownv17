@@ -17,14 +17,16 @@ start () {
 echo -e "$(tput setaf 2)Starting script:"
 sleep 0.8
 echo "0"
-sleep 00.1
+sleep 0.1
 echo "000"
-sleep 0.5
+sleep 0.1
 echo "0000"
 sleep 00.1
-echo "0000" sleep 00.9  echo DONE!"
+echo "0000"
+sleep 0.9
+echo "DONE"
 echo ~$(tput setaf 7)
-sleep 0.7	
+sleep 0.10	
 clear
 }
 option () {
