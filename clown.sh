@@ -25,10 +25,10 @@ sleep 2.9
 clear
 }
 option () {
-echo -e "$(tput setaf 3) \n                               GO HACK MY SON.
-                                                           WIFI HACKING."
-echo -e "$(tput setaf 2)\n                                    DEV CAE"
-echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
+echo -e "$(tput setaf 4) \n                               GO HACK MY SON.
+                                                           
+echo -e "$(tput setaf 1)\n                                    DEV CAE"
+echo -e "\n$(tput setaf 1)                        [ Select Option To Continue ]\n\n"
 echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 4)] $(tput setaf 4)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 4)] $(tput setaf 4)Wifi Jammer"
 echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 4)] $(tput setaf 4)Exit\n\n$(tput setaf 7)"
