@@ -7,7 +7,11 @@ echo -e "$(tput setaf 1)
 ██║     ██████╔╝███████║██║     █████╔╝     ███████║███████║██║     █████╔╝ 
 ██║     ██╔══██╗██╔══██║██║     ██╔═██╗     ██╔══██║██╔══██║██║     ██╔═██╗ 
 ╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗    ██║  ██║██║  ██║╚██████╗██║  ██╗
- ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝"
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+ 
+┬ ┬┬┌─┐┬  ┬ ┬┌─┐┌─┐┬┌─┬┌┐┌┌─┐
+││││├┤ │  ├─┤├─┤│  ├┴┐│││││ ┬
+└┴┘┴└  ┴  ┴ ┴┴ ┴└─┘┴ ┴┴┘└┘└─┘"
 }
 start () {
 echo -e "$(tput setaf 2)Starting script:"
@@ -23,7 +27,7 @@ clear
 option () {
 echo -e "$(tput setaf 3) \n               A script for wifi hacking.
         crack hack only Works if your wifi adapter has monitor mode."
-echo -e "$(tput setaf 2)\n                       Developed by Sandesh (3xploitGuy)"
+echo -e "$(tput setaf 2)\n                       Developed by cae"
 echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
 echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 2)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
