@@ -1,7 +1,7 @@
 #!/bin/bash
 
 logo () {
-echo -e "$(tput setaf 1)
+echo -e "$(tput setaf 4)
  ██████╗██████╗  █████╗  ██████╗██╗  ██╗    ██╗  ██╗ █████╗  ██████╗██╗  ██╗
 ██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝
 ██║     ██████╔╝███████║██║     █████╔╝     ███████║███████║██║     █████╔╝ 
@@ -26,11 +26,11 @@ sleep 1.7
 clear
 }
 option () {
-echo -e "$(tput setaf 3) \n               
+echo -e "$(tput setaf 3) \n              
         
-echo -e "$(tput setaf 2)\n                       
+echo -e "$(tput setaf 4)\n                               [ WIFI HACKING ]
 echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
-echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 2)Wifi Hacking"
+echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 4)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
 echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 1)] $(tput setaf 2)Exit\n\n$(tput setaf 7)"
 }
@@ -58,7 +58,7 @@ logo
 start
 hacking
 x-terminal-emulator -e ./airplay.sh $bssid
-airodump-ng --bssid $bssid --channel $ch wlan0mon -w files 
+airodump-ng --bssid $bssid --channel $ch cae -w files 
 aircrack-ng -w dictionary/dictionary.txt files-01.cap
 airmon-ng stop wlan0mon > /dev/null
 rm files*
