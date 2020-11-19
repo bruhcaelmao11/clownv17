@@ -1,5 +1,5 @@
-  + **For Linux :**
-  ```
+  + **### Installing For Linux :**
+  ````
 
 ~ ❯❯❯ Git clone https://github.com/caebruh/clownv2
 
