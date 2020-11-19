@@ -15,25 +15,23 @@ echo -e "$(tput setaf 4)
 }
 start () {
 echo -e "$(tput setaf 2)Starting script:"
-sleep 1.5
-echo "O"
-sleep 0.5
-echo "OO"
-sleep 0.5
-echo "DONE"
+sleep 0.9
+echo "LOADING"
+sleep 0.4
+echo "LOADING"
+sleep 0.4
 echo ~$(tput setaf 7)
-sleep 1.7 	
+sleep 2.9	
 clear
 }
 option () {
-
-        
-echo -e "$(tput setaf 4)\n                                 [ WIFI HACKING ]
-echo -e "\n$(tput setaf 4)                        [ Select Option To Continue ]\n\n"
+echo -e "$(tput setaf 3) \n                               GO HACK MY SON.
+                                                           WIFI HACKING."
+echo -e "$(tput setaf 2)\n                                    DEV CAE"
+echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
 echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 4)] $(tput setaf 4)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 4)] $(tput setaf 4)Wifi Jammer"
 echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 4)] $(tput setaf 4)Exit\n\n$(tput setaf 7)"
-}
 }
 hacking () {
 airmon-ng start wlan0 > /dev/null
