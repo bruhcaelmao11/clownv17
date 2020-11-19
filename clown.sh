@@ -17,21 +17,18 @@ start () {
 echo -e "$(tput setaf 2)Starting script:"
 sleep 1.5
 echo "O"
-sleep 0.7
-echo "OO"
-sleep 0.9
-echo "OOO"
 sleep 0.5
-echo "OOOO"
-sleep 1.6
+echo "OO"
+sleep 0.5
+echo "DONE"
 echo ~$(tput setaf 7)
-sleep 0.4 	
+sleep 1.7 	
 clear
 }
 option () {
-echo -e "$(tput setaf 4) \n                           [ S C R I P T  K I D D Y ]
+echo -e "$(tput setaf 3) \n               
         
-echo -e "$(tput setaf 2)\n            "
+echo -e "$(tput setaf 2)\n                       
 echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
 echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 2)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
