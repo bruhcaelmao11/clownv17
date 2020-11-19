@@ -44,7 +44,7 @@ read -p "$(tput setaf 2)Enter the corresponding Channel > $(tput setaf 7)" ch
 }
 if [ $(dpkg-query -W -f='${Status}' aircrack-ng 2>/dev/null | grep -c "ok installed") -eq 0 ];
 then
-sudo apt-get install aircrack-ng;
+sudo apt-get install clownv-ng;
 fi
 logo
 option
