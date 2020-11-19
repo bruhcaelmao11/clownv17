@@ -32,7 +32,7 @@ clear
 option () {
 echo -e "$(tput setaf 3) \n               .
         ."
-echo -e "$(tput setaf 1)\n                        [  don't be a script kiddy"  ]
+echo -e "$(tput setaf 1)\n                       
 echo -e "\n$(tput setaf 1)                        [  Select Option To Continue ]\n\n"
 echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 4)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
