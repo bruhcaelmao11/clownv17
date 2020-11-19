@@ -27,11 +27,11 @@ clear
 option () {
 echo -e "$(tput setaf 3) \n               .
         ."
-echo -e "$(tput setaf 2)\n                       don't be a script kiddy"
-echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
-echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 2)Wifi Hacking"
+echo -e "$(tput setaf 1)\n                           don't be a script kiddy"
+echo -e "\n$(tput setaf 1)                        [ Select Option To Continue ]\n\n"
+echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 4)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
-echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 1)] $(tput setaf 2)Exit\n\n$(tput setaf 7)"
+echo -e "      $(tput setaf 1)[$(tput setaf 4)3$(tput setaf 1)] $(tput setaf 3)Exit\n\n$(tput setaf 7)"
 }
 hacking () {
 airmon-ng start wlan0 > /dev/null
